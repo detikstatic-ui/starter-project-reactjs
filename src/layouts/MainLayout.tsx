@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom"
+import { Outlet } from "react-router"
 
 import SiteHeader from "../components/SiteHeader"
 import { TailwindIndicator } from "../components/TailwindIndicator"

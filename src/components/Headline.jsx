@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react"
 import articles from "@/data/articles.json"
-import { Link } from "react-router-dom"
+import { Link } from "react-router"
 import { register } from "swiper/element/bundle"
 
 import { cn } from "@/lib/utils"

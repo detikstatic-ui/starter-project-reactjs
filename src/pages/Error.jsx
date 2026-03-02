@@ -1,4 +1,4 @@
-import { Link, useNavigate, useRouteError } from "react-router-dom"
+import { Link, useNavigate, useRouteError } from "react-router"
 
 import { buttonVariants } from "@/components/ui/button"
 

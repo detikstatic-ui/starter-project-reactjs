@@ -1,4 +1,4 @@
-import { Form, useLoaderData } from "react-router-dom"
+import { Form, useLoaderData } from "react-router"
 
 import { deleteItem, fetchData } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -36,8 +36,7 @@ export async function homeAction({ request }: { request: any }) {
 }
 
 const Home = () => {
-  //@ts-expect-error type error
-  const { userName } = useLoaderData()
+  const { userName } = useLoaderData() as { userName: string | null }
 
   return (
     <>

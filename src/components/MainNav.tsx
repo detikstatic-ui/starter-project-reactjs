@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router"
 
 import { NavItem } from "@/types/nav"
 import { siteConfig } from "@/config/site"

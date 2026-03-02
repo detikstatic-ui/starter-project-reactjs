@@ -1,7 +1,7 @@
 import React from "react"
 import MainLayout from "@/layouts/MainLayout"
 import ReactDOM from "react-dom/client"
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { createBrowserRouter, RouterProvider } from "react-router"
 
 import "@/styles/globals.css"
 
